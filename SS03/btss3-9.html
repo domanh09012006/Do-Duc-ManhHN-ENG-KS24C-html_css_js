@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.hehehesever.com" method="post">
+        <table>
+            <tr>
+                <td ><label for="">Họ và tên:</label></td>
+                <td><input type="text" name="name" id="name" /></td>
+            </tr>
+            
+            <tr>
+                <td><label for="birthday">Ngày sinh:</label></td>
+                <td><input type="date" name="birthday" id="birthday" /></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gioi tính:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male" />
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" value="Female"/>
+                    <label for="female">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Số điện thoại:</label></td>
+                <td>
+                    <input 
+                    type="tel" 
+                    name="phone" 
+                    id="phone"
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td ><label for="">Email:</label></td>
+                <td><input type="email" name="Email" id="Email" /></td>
+            </tr>
+            <tr>
+                <td><label for="">Địa chỉ:</label></td>
+                <td><textarea name="address" id="address" cols="25" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">Vai trò trong nhóm:</label></td>
+                <td>
+                    <select name="Chọn lớp">
+                        <option value="lp1">Thành viên</option>
+                        <option value="lp2">Nhóm trưởng</option>
+                        <option value="lp3">Nhóm phó</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td ><label for="">Sở thích:</label></td>
+                <td><input type="text" name="hobby" id="hobby" /></td>
+            </tr>
+            <tr>
+                <td><label for="">Kĩ năng:</label></td>
+                <td><input type="text" name="" id="" /></td>
+            </tr>
+            <tr>
+                <td><label for="">Thời gian rảnh:</label></td>
+                <td>
+                    <input type="checkbox" id="morning" name="day" value="morning" />
+                    <label for="morning">Sáng</label>
+                    <input type="checkbox" id="afternoon" name="day" value="afternoon"/>
+                    <label for="afternoon">Chiều</label>
+                    <input type="checkbox" id="evening" name="day" value="evening"/>
+                    <label for="evening">Tối</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Lí do tham gia nhóm:</label></td>
+                <td><textarea name="reason" id="reason" cols="25" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="colorPicker">Chọn màu:</label></td>
+                <td><input type="color" id="colorPicker" name="color" value="#ff0000"></td>
+            </tr>
+            <tr>
+                <td><label for="">Đăng kí nhận bản tin:</label></td>
+                <td>
+                    <input type="checkbox" id="yes" name="choose" value="yes" />
+                    <label for="yes">Có</label>
+                    <input type="checkbox" id="no" name="choose" value="no"/>
+                    <label for="no">Không</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Nhận thông báo qua:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male" />
+                    <label for="male">Email</label>
+                    <input type="radio" id="female" name="gender" value="Female"/>
+                    <label for="female">SMS</label>
+                </td>
+            </tr>
+            
+        </table>
+        <button>Đăng kí thành viên</button>
+
+    </form>
+</body>
+</html>
