@@ -1,0 +1,53 @@
+/* Cascading trong CSS */
+ul{
+    background-color: lightskyblue;
+}
+
+/* Ghi đè thuộc tính */
+ul{
+    background-color: khaki;
+}
+
+h1{
+     background-color: lawngreen !important;/*Thứ tự ưu tiên cao nhất */
+}
+li{
+    color: brown;
+}
+
+/* Gọi toàn bộ các thẻ HTML  */
+*{
+    font-size: 50px;
+}
+
+#second-li{
+    color: cadetblue;
+    background-color: rgb(148, 124, 30);
+}
+
+.hihihi{
+    color: blue;
+    background-color: red;
+}
+/* bộ thuộc tính CSS dùng để tạo kiểu chữ 
+    font-size
+    font-weight
+    text-align
+    text-decoration: underline*/
+.text-transform {
+    font: size 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.first p {
+    color: cornflowerblue;
+}
+#second {
+    background-color: black;
+}
+.second {
+    background-color: color-mix(in hsl shorter hue, color percentage, color percentage);
+}
+

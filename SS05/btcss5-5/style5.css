@@ -1,0 +1,20 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+}div{
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial;
+    color:rgb(27, 96, 157);
+}
+.background{
+    padding: 10px;
+    border-left: 5px solid #ff8400;
+    background-color:blanchedalmond;
+}
+.monospace{
+    font-family: monospace;
+}
