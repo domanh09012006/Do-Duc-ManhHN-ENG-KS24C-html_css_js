@@ -1,0 +1,24 @@
+body{
+    font-family: "Roboto";
+}
+.img{
+    border-radius: 5px;
+}
+span{
+    color: rgb(184, 184, 190);
+}
+p{
+    color: rgb(26, 26, 61);
+    font-size:15px;
+}
+div{
+    border-top: 3px gray dashed;
+    padding-top: 20px;
+}
+.borderleft{
+    border-left-style: solid;
+    border-left-color: grey;
+}
+td{
+    font-weight: 800;
+}
