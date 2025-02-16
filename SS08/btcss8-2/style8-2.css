@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2d2d2d;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+form{
+    width: 500px;
+    border: 2px solid #685f76;
+    padding: 20px;
+    display: flex;
+    line-height: 30px;
+    background: rgb(61,59,98);
+    background: linear-gradient(50deg, rgba(61,59,98,1) 0%, rgba(80,63,93,1) 100%);
+}
+.input{
+    margin-right: 20px;
+    border: 2px solid #685f76;
+    background: rgb(98,59,59);
+    background: linear-gradient(50deg, rgba(98,59,59,0) 0%, rgba(80,63,93,0) 100%);
+    border-radius: 3px;
+}
+#Email{
+    background: rgb(98,59,59);
+    background: linear-gradient(50deg, rgba(98,59,59,0) 0%, rgba(80,63,93,0) 100%);
+    border: 2px solid #685f76;
+    border-radius: 3px;
+}
+
+table{
+    width: 100%;
+}
+.textarea{
+    margin-top: 30px;
+    
+}
+#textarea{
+    border: 2px solid #685f76;
+    background: rgb(98,59,59);
+    background: linear-gradient(50deg, rgba(98,59,59,0) 0%, rgba(80,63,93,0) 100%);
+    border-radius: 3px;
+}
+button{
+    background-color: white;
+    font-family: "Roboto Mono";
+    font-size: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+}
+label{
+    font-size: 10px;
+    color: white;
+    
+}

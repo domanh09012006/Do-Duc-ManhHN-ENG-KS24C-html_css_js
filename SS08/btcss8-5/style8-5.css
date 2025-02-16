@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background: #666;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.download {
+    background: #007bff;
+    color: white;
+}
+
+.btn-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.learn-more {
+    background: white;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.bottom-section {
+    padding: 20px;
+    background: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}

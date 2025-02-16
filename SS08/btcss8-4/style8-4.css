@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.features {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.section-header {
+    text-align: left;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-underline {
+    width: 150px;
+    height: 3px;
+    background: #d9534f;
+    margin-top: 5px;
+}
+
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.pict {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.diamond {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    transform: rotate(45deg);
+}
+
+.diamond img {
+    width: 40px;
+    height: 40px;
+    transform: rotate(-45deg);
+}
+
+.content {
+    text-align: left;
+}
+
+.content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.content p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}

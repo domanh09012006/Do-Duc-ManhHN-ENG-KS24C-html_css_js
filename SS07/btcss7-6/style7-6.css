@@ -8,9 +8,7 @@ body {
     max-width: 600px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    overflow: hidden;
 }
-
 .accordion-item {
     border-bottom: 1px solid #ddd;
 }

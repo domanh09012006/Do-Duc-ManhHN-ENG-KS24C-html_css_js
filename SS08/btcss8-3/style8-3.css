@@ -1,0 +1,63 @@
+*{
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #2d2d2d;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+table{
+    width: 850px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+tr{
+    width: 100%;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+td{
+    padding: 30px;
+}
+.img2{
+    height: 130px;
+}
+.img3{
+    height: 130px;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margintop{
+    margin-top: 1px;
+}
+p{
+    line-height:25px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #a4aaaf;
+}
+.border-right{
+    border-right: 2px solid gainsboro ;
+}
+button{
+    font-size: 10px;
+    padding: 9px 19px;
+    border: 2px solid #f78686;
+    color: #f78686;
+    border-radius: 4px;
+    background-color: white;
+}
+.bar{
+    margin-left: 60px;
+    width: 50%;
+    height: 10px;
+    color: #f78686;
+}
