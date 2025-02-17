@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    flex-direction: column;
+    height: 105px; 
+    width: 600px;
+    align-items:baseline;
+}
+.container .child1{
+    display: flex;
+    
+}
+.container .child2{
+    display: flex;
+    justify-content:space-between
+    
+}
+.container span{
+    border: 5px solid ;
+    border-radius: 9px;
+    color: white;
+    background-color:#800080;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    align-items: center;
+}
+.chil2 span{
+    border: 5px solid ;
+    border-radius: 9px;
+    color: white;
+    background-color:#800080;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
