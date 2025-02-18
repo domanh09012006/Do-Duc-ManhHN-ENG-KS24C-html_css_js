@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.slider {
+    width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.slide {
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slide-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.category {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.date {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.headline {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.description {
+    font-size: 16px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #fff;
+}
+.pagination button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.pagination .page {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination .page:hover,
+.pagination .prev:hover,
+.pagination .next:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.pagination .active {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
