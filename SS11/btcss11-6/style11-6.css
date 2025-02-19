@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    background-color: rgb(178 214 255);
+    text-align: center;
+    align-content: center;
+    height: 100px;
+}
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section1 div:nth-of-type(1){
+    background-color: rgb(245 207 141);
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    width: 33.33%;
+    
+}
+.section1 div:nth-of-type(2){
+    background-color: rgb(200 198 250);
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    width: 33.33%;
+    
+}
+.section1 div:nth-of-type(3){
+    background-color: rgb(240 154 157);
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    width: 33.33%;
+}
+.section2{
+    
+    background-color: rgb(199, 223, 250);
+    text-align: center;
+    align-content: center;
+    height: 50px;
+}
+main{
+    
+    background-color: rgb(235 237 240);
+    text-align: center;
+    align-content: center;
+    height: 300px;
+}
+@media screen and (max-width: 768px) {
+    header{
+        height: 70px;
+    }
+    main{
+        order: 1;
+        height: 100px;
+    }
+    section{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .section2{
+        width: 50%;
+        height: 70px;
+    }
+    .section1 div{
+        width: 50%;
+        height: 70px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    main{
+        order: 1;
+        height: 100px;
+    }
+}

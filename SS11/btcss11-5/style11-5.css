@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: hsl(180deg 2.04% 90.39%);
+}
+body {
+    background-color: hsl(180deg 2.04% 90.39%);
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 30%;
+    font-size: 20px;
+    background-color: hsl(180deg 2.04% 90.39%);
+    color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+}
+.logo2 {
+    width: 70%;
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.main1 {
+    width: 67%;
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+    height: 100px;
+}
+.main2 {
+    width: 33%;
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+    height: 100px;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.section {
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+    height: 30px;
+}
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+    }
+    
+    .main1, .main2 {
+        width: 100%;
+    }
+    
+    .main2 {
+        height: 50px;
+    }
+    
+    section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo, .logo2 {
+        width: 100%;
+    }
+    
+    section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: hsl(180deg 2.04% 90.39%);
+}
+
+body {
+    background-color: hsl(180deg 2.04% 90.39%);
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 30%;
+    font-size: 20px;
+    background-color: hsl(180deg 2.04% 90.39%);
+    color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+}
+
+.logo2 {
+    width: 70%;
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.main1 {
+    width: 67%;
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+.main2 {
+    width: 33%;
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+/* Section Layout */
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.section {
+    background-color: hsl(359.29deg 36.48% 45.69%);
+    align-content: center;
+    text-align: center;
+    height: 30px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+    }
+    
+    .main1, .main2 {
+        width: 100%;
+    }
+    
+    .main2 {
+        height: 50px;
+    }
+    
+    section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo, .logo2 {
+        width: 100%;
+    }
+    
+    section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .logo, .logo2 {
+        width: 100%;
+    }
+    
+    main {
+        flex-direction: column;
+    }
+    
+    .main1, .main2 {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    
+    section {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    
+    .section {
+        height: 40px;
+    }
+}
