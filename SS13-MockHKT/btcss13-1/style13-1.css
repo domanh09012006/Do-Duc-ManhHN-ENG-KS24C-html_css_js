@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+header{
+    padding: 24px 60px;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .title{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.title h3{
+    font-size: 35px;
+}
+header .function{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+header .icon{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+main .main-pict{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main img{
+    width: 100%;
+}
+main .main-card{
+    position: absolute;
+    width: 400px;
+    height: 270px;
+    padding: 30px 30px;
+    background-color: #FFF3E3;
+    gap: 10px;
+    top: 300px;
+    left: 800px;
+}
+main .main-card p:nth-of-type(1){
+    font-size: 16px;
+}
+main .main-card p:nth-of-type(2){
+    font-size: 16px;
+}
+main .main-card h2{
+    font-size: 30px;
+    color: #B88E2F;
+}
+main button{
+   padding: 15px 30px;
+   margin-top: 20px;
+   font-weight: 500;
+   color: white;
+   background-color: #B88E2F;
+   border: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+section .title2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+section .title2 h3{
+    font-size: xx-large;
+}
+section .img{
+    display: flex;
+    gap: 10px;
+}
+section .img img{
+    width: 250px;
+    height: 350px;
+}
+section .img div{
+    text-align: center;
+}
+section .img div p{
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
