@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    background-color: #fff;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header .function{
+    display: flex;
+    width: 698px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+header .menu-mobile{
+    display: none;
+
+}
+.function {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.function li a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(27, 27, 27);
+}
+.function ul  {
+    align-items: center;
+    justify-items: center;
+}
+.function .btn2{
+    background-color: #111827;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 5px;
+}
+.function .btn1{
+    border: none;
+    padding: 5px 5px;
+    size: 30px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 360px;
+    padding: 96px 80px;
+}
+.aside1{
+    width: 50%;
+    height: 360px;
+}
+.aside2{
+    width: 50%;
+    height: 360px;
+}
+.aside2 img{
+    width: 280px;
+    height: 320px;
+    box-shadow: 20px 20px #E5E7EB;
+    margin-left: 100px;
+}
+.aside1 h1{
+    font-size: 60px;
+}
+.aside1 .info{
+    margin-bottom: 20px;
+}
+.link button{
+    padding: 10px 10px;
+    border: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    gap: 30px;
+    width: 1440px;
+    height: 412px;
+    padding: 96px 80px;
+}
+section button{
+    width: 70px;
+    justify-items: center;
+    border: none;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+.tools{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    text-align: center;
+}
+@media screen and (max-width: 765px) {
+    header .menu-mobile{
+        display: block;
+    }
+    header .function{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+        
+    }
+    main .aside2{
+        order: 1;
+    }
+    main .aside1{
+        order: 2;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+footer{
+    width: 100%;
+    height: 58px;
+    text-align: center;
+    align-items: center;
+}
