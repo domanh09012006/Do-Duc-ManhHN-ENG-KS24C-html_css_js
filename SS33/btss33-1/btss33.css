@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    
+}
+.input{
+    display: flex;
+    border: none;
+}
+.btn{
+    display: flex;
+    border: none;
+    background-color: white;
+    margin-top: 7px;
+}
