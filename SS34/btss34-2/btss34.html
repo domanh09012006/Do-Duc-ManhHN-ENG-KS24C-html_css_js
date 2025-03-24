@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./btss34.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quản lý Công Việc</h1>
+        <form id="task-form">
+            <input type="hidden" id="taskId">
+            <input type="text" id="content" placeholder="content">
+            <input type="date" id="dueDate" required>
+            <select id="status">
+                <option value="Pending">Pending</option>
+                <option value="Completed">Pending</option>
+            </select>
+            
+            <input type="text" id="assignedTo" placeholder="Username">
+            <button type="button" id="submitBtn" onclick="handleSubmit()">Sumbit</button>
+        </form>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Content</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                    <th>Assigned to</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="task-table"></tbody>
+        </table>
+    </div>
+    <script src="./btss34.js"></script>
+</body>
+</html>
