@@ -4,7 +4,7 @@ let confirmPass = document.getElementById("confirmPass");
 let btn = document.getElementById("btn");
 
 btn.addEventListener("click", function (event) {
-    event.preventDefault(); // Chặn form load lại trang
+    event.preventDefault();
 
     let emailValue = email.value;
     let passwordValue = password.value;

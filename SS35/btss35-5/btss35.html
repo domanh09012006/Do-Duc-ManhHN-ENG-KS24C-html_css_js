@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./btss35.css">
+</head>
+
+<body>
+    <h1>Danh mục</h1>
+    <button id="btnAddCategory">Thêm mới danh mục</button>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Mã danh mục</th>
+                <th>Tên danh mục</th>
+                <th>Trạng thái</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody id="categoryTable"></tbody>
+    </table>
+
+    <div id="categoryForm" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Thêm mới danh mục</h2>
+            <label for="categoryId">Mã danh mục</label>
+            <input type="text" id="categoryId">
+            <p id="idError" class="error"></p>
+
+            <label for="categoryName">Tên danh mục</label>
+            <input type="text" id="categoryName">
+            <p id="nameError" class="error"></p>
+
+            <label>Trạng thái:</label>
+            <input type="radio" name="status" value="Đang hoạt động" checked> Đang hoạt động
+            <input type="radio" name="status" value="Ngừng hoạt động"> Ngừng hoạt động
+
+            <button id="btnSave">Thêm</button>
+        </div>
+    </div>
+
+    <script src="./btss35.js"></script>
+</body>
+
+</html>
