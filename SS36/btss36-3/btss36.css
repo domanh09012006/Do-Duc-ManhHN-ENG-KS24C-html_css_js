@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#red {
+    background-color: red;
+    color: white;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#yellow {
+    background-color: gold;
+    color: black;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+}

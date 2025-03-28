@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./btss36.css">
+</head>
+<body>
+    <h1>🗂️ Quản lý công việc (Task Board)</h1>
+    
+    <div class="task-form">
+        <input type="text" id="task-input"  />
+        <button id="add-task">Thêm</button>
+    </div>
+
+    <div class="task-board">
+        <div class="column" id="todo">
+            <h2>⏳ Chờ xử lý</h2>
+            <div class="task-list"></div>
+        </div>
+        <div class="column" id="in-progress">
+            <h2>🔨 Đang làm</h2>
+            <div class="task-list"></div>
+        </div>
+        <div class="column" id="done">
+            <h2>✅ Hoàn thành</h2>
+            <div class="task-list"></div>
+        </div>
+    </div>
+
+    <script src="./btss36.js"></script>
+</body>
+</html>
