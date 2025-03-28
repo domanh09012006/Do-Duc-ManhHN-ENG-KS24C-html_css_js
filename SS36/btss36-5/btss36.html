@@ -7,26 +7,35 @@
     <link rel="stylesheet" href="./btss36.css">
 </head>
 <body>
-    <h1>🗂️ Quản lý công việc (Task Board)</h1>
-    
-    <div class="task-form">
-        <input type="text" id="task-input"  />
-        <button id="add-task">Thêm</button>
+    <h2>🗂️ Quản lý công việc (Task Board)</h2>
+
+    <div class="task-input">
+      <input type="text" id="taskName" placeholder="Nhập tên công việc..." />
+      <button>Thêm</button>
     </div>
 
-    <div class="task-board">
-        <div class="column" id="todo">
-            <h2>⏳ Chờ xử lý</h2>
-            <div class="task-list"></div>
+    <div class="board">
+      <div class="column" id="pendingCol">
+        <h3>🕐 Chờ xử lý</h3>
+        <div id="pendingTasks">
+          <!-- <div class="task">
+            <p>Nội dung</p>
+            <button>Chuyển tiếp</button>
+          </div> -->
         </div>
-        <div class="column" id="in-progress">
-            <h2>🔨 Đang làm</h2>
-            <div class="task-list"></div>
+      </div>
+      <div class="column" id="inProgressCol">
+        <h3>🔨 Đang làm</h3>
+        <div id="inProgressTasks"></div>
+      </div>
+      <div class="column" id="doneCol">
+        <h3>✅ Hoàn thành</h3>
+        <div id="doneTasks">
+          <!-- <div class="task">
+            <p>Nội dung</p>
+          </div> -->
         </div>
-        <div class="column" id="done">
-            <h2>✅ Hoàn thành</h2>
-            <div class="task-list"></div>
-        </div>
+      </div>
     </div>
 
     <script src="./btss36.js"></script>
